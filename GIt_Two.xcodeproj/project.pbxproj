@@ -13,6 +13,7 @@
 		EBB25D96196FD5CF00F985E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBB25D94196FD5CF00F985E2 /* Main.storyboard */; };
 		EBB25D98196FD5CF00F985E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBB25D97196FD5CF00F985E2 /* Images.xcassets */; };
 		EBB25DA4196FD5CF00F985E2 /* GIt_TwoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB25DA3196FD5CF00F985E2 /* GIt_TwoTests.m */; };
+		EBB25DAF196FDB4600F985E2 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB25DAE196FDB4600F985E2 /* Product.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 		EBB25D9D196FD5CF00F985E2 /* GIt_TwoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GIt_TwoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBB25DA2196FD5CF00F985E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBB25DA3196FD5CF00F985E2 /* GIt_TwoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIt_TwoTests.m; sourceTree = "<group>"; };
+		EBB25DAD196FDB4600F985E2 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		EBB25DAE196FDB4600F985E2 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 				EBB25D8E196FD5CF00F985E2 /* AppDelegate.h */,
 				EBB25D8F196FD5CF00F985E2 /* AppDelegate.m */,
 				EBB25D91196FD5CF00F985E2 /* ViewController.h */,
+				EBB25DAD196FDB4600F985E2 /* Product.h */,
+				EBB25DAE196FDB4600F985E2 /* Product.m */,
 				EBB25D92196FD5CF00F985E2 /* ViewController.m */,
 				EBB25D94196FD5CF00F985E2 /* Main.storyboard */,
 				EBB25D97196FD5CF00F985E2 /* Images.xcassets */,
@@ -216,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBB25D93196FD5CF00F985E2 /* ViewController.m in Sources */,
+				EBB25DAF196FDB4600F985E2 /* Product.m in Sources */,
 				EBB25D90196FD5CF00F985E2 /* AppDelegate.m in Sources */,
 				EBB25D8D196FD5CF00F985E2 /* main.m in Sources */,
 			);
